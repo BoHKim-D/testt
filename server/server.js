@@ -9,7 +9,7 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, "../public")));
 
-const port = process.env.PORT || 4005;
+const port = process.env.PORT || 4004;
 
 app.listen(port, () => {
     console.log(`We are online on ${port}`)
