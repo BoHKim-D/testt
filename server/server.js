@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use(express.static(path.join(__dirname, "../handouts")));
+app.use(express.static(path.join(__dirname, "../public")));
 
 const port = process.env.PORT || 4005;
 
